@@ -1,0 +1,28 @@
+@import "../../../styles/variable.scss";
+
+.label {
+	width: 100%;
+	min-width: 18rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem 1.15rem;
+	font-size: 1rem;
+	border: 2px solid rgba($color--firstText, 0.1);
+	border-radius: 1rem;
+	font-size: 1rem;
+
+	&__input {
+		width: 100%;
+		outline: none;
+		border: none;
+		background: transparent;
+		color: $color--firstText;
+		font-size: 1rem;
+
+		&::placeholder {
+			color: rgba($color--secondText, 0.4);
+			font-size: 0.85rem;
+		}
+	}
+}

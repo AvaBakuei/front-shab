@@ -1,0 +1,27 @@
+@import "../styles/variable.scss";
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+html {
+	overflow-x: hidden;
+}
+* {
+	font-family: "Roboto", sans-serif;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Roboto", sans-serif;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 1.15rem;
+
+	@media (max-width: $lg-width) {
+		width: 992px;
+	}
+	@media (max-width: $md-width) {
+		width: 768px;
+	}
+	@media (max-width: $sm-width) {
+		width: 100%;
+	}
+}
